@@ -8,31 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Bhavya Tyagi </span>
-            from <span className="purple"> Ghaziabad, India.</span>
-            <br /> I am a Third Year student pursuing Bachelor of Technology in Computer Science.
+            Hi everyone, I am <span className="purple">Bhavya Tyagi </span>
+            from <span className="purple">Ghaziabad, India.</span>
+            <br />I am a Computer Science undergraduate with a strong focus on
+            machine learning, analytics, and building products powered by data.
             <br />
-            I am driven by the opportunity to contribute to the advancement of machine learning and its application to solve complex problems.
+            I enjoy turning ideas into end-to-end solutions—from model
+            development to deployment and performance monitoring.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Outside of coding, here are a few things I enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> palying Chess and Valorant
+              <ImPointRight /> Playing chess and strategy games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Writing technical blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Violin
+              <ImPointRight /> Playing violin
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-          "Machine Learning engineers are the architects of the future, building intelligent systems that can revolutionize industries and improve lives."{" "}
+            "Machine learning engineers are architects of the future,
+            transforming data into decisions that improve lives."
           </p>
-          <footer className="blockquote-footer">Bhvaya</footer>
+          <footer className="blockquote-footer">Bhavya</footer>
         </blockquote>
       </Card.Body>
     </Card>
